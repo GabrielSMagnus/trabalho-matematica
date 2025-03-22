@@ -8,6 +8,7 @@ body {
     font-size: 25px;
 
     background-image: url(fundosite.png);
+    background-position: top top;
 }
 
 div {
@@ -24,7 +25,7 @@ div {
 a {
     border-radius: 10px;
     border-style: solid;
-    border-color: #fa620f; 
+    border-color: #f55905; 
 
     text-align: center;
     color: black;
@@ -32,18 +33,21 @@ a {
 
     display: block;
 
-    background-color: #662400;
+    background-color: #853911;
 
     margin: 45px;
     margin-top: 250px;
     margin-bottom: 35px;
 
     padding: 20px;
+
+    transition: 0.5s;
     
 }
 
 a:hover {
-    color: black;
+    color: white;
+    background-color: #f55905;
     text-decoration: none;
 }
 
