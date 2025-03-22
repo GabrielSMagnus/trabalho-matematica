@@ -1,33 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho de matemática</title>
+    <title>Trabalho de Matemática</title>
     <style>
-        body {
-            margin: 0px;
-            padding: 0px;
+        @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+        /* Reset de margem e padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        video {
-            
+        /* Corpo da página */
+        body {
+            font-family: 'Pangolin', Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("errouuu.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
 
-            padding: 0px;
-            margin: 0px;
+        /* Contêiner para centralizar os links lado a lado */
+        .container {
+            display: flex;
+            flex-direction: row; /* Links lado a lado */
+            gap: 20px; /* Espaçamento entre os links */
+            text-align: center;
+            padding: 20px;
+            transform: translateY(-20px); /* Move os links 20px para cima */
+        }
 
-            width: 100vw;
-            height: 99.3vh;
+        /* Estilo dos links */
+        .link {
+            border-radius: 10px;
+            border-style: solid;
+            border-color: #f55905;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            display: block;
+            background-color: #853911;
+            padding: 10px 20px;
+            transition: 0.5s;
+        }
+
+        .link:hover {
+            color: white;
+            background-color: #f55905;
+            text-decoration: none;
         }
     </style>
 </head>
-<body>
-    <video autoplay loop muted >
-        <source src="errou.mp4" type="video/mp4">
-        <p>seu navegador nao é compativel com videos.</p>
-    </video> 
 
-    <a href="pergunta1.html">Recomeçar</a>
-    <a href="index.html">Voltar para tela inicial</a>
+<body>
+    <div class="container">
+        <a class="link" href="pergunta1.html">Recomeçar</a>
+        <a class="link" href="index.html">Início</a>
+    </div>
 </body>
+
 </html>
