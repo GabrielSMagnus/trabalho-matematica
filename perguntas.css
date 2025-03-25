@@ -66,5 +66,33 @@ a:hover {
     font-size: 50px;
 
 
+
 }
 
+
+.oito {
+    text-decoration: none;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #853911; 
+
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+    display: block;
+
+    background-color: #853911;
+
+    margin: 0px;
+    margin-bottom: 0px;
+
+    padding: 0px;
+    
+    transition: none;
+}
+
+.oito:hover {
+    background-color: #853911;
+    color: black;
+}
